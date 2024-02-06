@@ -1,0 +1,456 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.navbar {
+    width: 100%;
+    background-color: darkblue;
+}
+
+
+.navbar ul {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.navbar ul li {
+    margin: 8px;
+    position: relative;
+
+}
+
+nav a {
+    padding: 30px;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+
+}
+
+nav img {
+    margin-left: 20px;
+    transform: scale(2.6);
+    height: 100px;
+
+    width: 100px;
+}
+
+
+
+.navbar ul li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+
+}
+
+.navbar ul li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+.main_heading h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+.cards a img{
+    transform: scale(0.1);
+}
+
+.footer {
+    background-color: darkblue;
+    font-size: 16px;
+
+    color: white;
+    height: auto;
+   background-size: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+ul>li {
+        padding: 2px;
+    color: white;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: cyan;
+}
+
+ul>li>a:hover {
+   color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.card10 {
+    padding: 2% 7%;
+
+}
+
+
+.policy>div {
+    padding: 4px;
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 540;
+    font-size: 20px;
+    /* color: black; */
+}
+
+.divider {
+    border-top: 2px solid;
+}
+
+.social {
+   
+    background-color: none;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.social .link {
+    height:60px;
+    width: 60px;
+    /* background-color: white; */
+    border-radius: 35px;
+    text-align: left;
+    /* margin: 3px; */
+    /* line-height: 80px; */
+    transform: scale(0.8);
+}
+
+.social a i {
+    transition: all 0.3s linear;
+}
+
+.social a:hover i {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.youtube {
+    color: rgb(227, 53, 53)
+}
+
+.youtube:hover {
+    color: red;
+
+}
+
+.facebook:hover {
+    color: rgb(72, 72, 248);
+
+}
+
+.instagram {
+    color: #f54996;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter {
+    color: #21bcf9;
+}
+
+.twitter:hover {
+    color: #00acee;
+}
+
+.infobox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ .infobox div span{
+    min-width: 40px;
+    height: 40px;
+    color:#fff;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+ .infobox div a{
+    color: cyan;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.infobox div a:hover{
+    color: white;
+    font: 1.2em;
+}
+.card1 {
+    transition: transform .3s;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.cards_addition{
+    transition: transform .3s;
+}
+.cards_addition:hover{
+    transform: scale(1.1);
+}
+.card2 {
+    transition: transform .3s;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+.card3 {
+    transition: transform .3s;
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+.card4 {
+    transition: transform .3s;
+}
+.card4:hover{
+    transform: scale(1.1);
+}
+.card5 {
+    transition: transform .3s;
+}
+.card5:hover{
+    transform: scale(1.1);
+}
+.card6 {
+    transition: transform .3s;
+}
+.card6:hover{
+    transform: scale(1.1);
+}
+
+.cards_addition a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}
+.cards_addition a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card1 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}
+.card1 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card2 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}
+.card2 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card3 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}
+.card3 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card4 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+    
+   
+}
+.card4 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card5 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}
+.card5 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card6 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}
+.card6 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.card7 a {
+    width: 130px;
+    height: 40px;
+    border: 2px solid darkblue;
+    background-color: darkblue;
+    color: white;
+  
+   
+}   
+.card7 a:hover{
+      color: white; 
+       background-color: rgba(5, 5, 90, 0.98);
+    border: 2px solid rgba(5, 5, 90, 0.98);
+}
+.cards{
+  
+    transition: transform .3s;
+    padding: 10px;
+    cursor: pointer;
+}
+.cards:hover{
+    transform: scale(1.05);
+}
+.cards a img{
+    transform: scale(0.09);
+    height: 380px;
+    width: 400px;
+    position: relative;
+   right: 50px;
+}
+
+  .main_button button{
+     margin-left: 55px;
+     outline: none;
+     border: 2px solid darkblue;
+     border-radius: 5px;
+     text-align: center;
+     height: 40px;
+     width: 140px;
+     color: white;
+     font-size: 16px;
+     background-color: darkblue;
+
+   }
+   .main_button button a{
+    text-decoration: none;
+    color: white;
+}
+.main_button button:hover{
+ background-color: rgba(5, 5, 90, 0.98);
+  border: 2px solid rgba(5, 5, 90, 0.98);
+  color: white;
+}
+   .main_card{
+     border-radius: none;
+     border: none;
+     background-color: rgb(253, 241, 241);
+
+     display: flex;
+     flex-direction: column;
+     transition: transform .3s;
+    cursor: pointer;
+}   
+   .main_card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 3px 2px grey;
+   }
+   .first-column img{
+        transform: scale(0.3);
+        margin: -39px;
+        padding: 0;
+       margin-left: -27px;
+   }
+   .second-column img{
+        transform: scale(0.5);
+        margin: -39px;
+        padding: 0;
+       margin-left: -5px;
+   }
+   .third-column img{
+        transform: scale(0.5);
+        margin: -39px;
+        padding: 0;
+       margin-left: -2px;
+   }
+  
